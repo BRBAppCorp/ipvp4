@@ -20,6 +20,7 @@ file_template: ":filename:"
 build:
   preview_env:
   - 'INCOMING_HOOK_BODY= '
+  - GIT_LFS_SKIP_SMUDGE=1
   preview_output_directory: public
   install_dependencies_command: npm install
   preview_docker_image: node:10
