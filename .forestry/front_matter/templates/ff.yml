@@ -1,0 +1,14 @@
+---
+label: ff
+hide_body: true
+fields:
+- type: field_group
+  name: build
+  label: build
+  fields:
+  - type: text
+    name: publish
+    label: publish
+  - type: text
+    name: command
+    label: command
