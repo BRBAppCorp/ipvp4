@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: "/.forestry"
 webhook_url: 
 sections:
+- type: document
+  path: ".forestry/settings.yml"
+  label: Global site config
+  match: "**/*"
 - type: directory
   path: ''
   label: home
