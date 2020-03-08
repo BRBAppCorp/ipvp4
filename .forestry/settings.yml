@@ -5,10 +5,10 @@ admin_path: "/.forestry"
 webhook_url: 
 sections:
 - type: document
-  path: ".forestry/settings.yml"
+  path: ".forestry"
   label: Global site config
 - type: directory
-  path: ''
+  path: config.yml
   label: home
   create: all
   match: "**/*"
