@@ -5,7 +5,7 @@ admin_path: "/.forestry"
 webhook_url: 
 sections:
 - type: document
-  path: ".forestry"
+  path: ".forestry/settings.yml"
   label: Global site config
 - type: directory
   path: config.yml
